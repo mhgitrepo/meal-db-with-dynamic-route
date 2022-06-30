@@ -1,6 +1,9 @@
-.meal-card-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    margin: 50px 100px;
+.meal-card-link{
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.5;
+    transition: .5s;
+}
+.meal-card-link:hover{
+    transition: .5s;
 }

@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
 }
+.single-meal-card-detail-header-text{
+    border: 2px solid cadetblue;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
 .single-meal-card-detail{
-    margin: 100px 0;
+    margin: 20px 0;
     padding: 10px;
     border: 2px solid salmon;
     width: 400px;

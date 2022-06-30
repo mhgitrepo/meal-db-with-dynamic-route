@@ -12,8 +12,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/meals' element={<Meals/>}/>
-        <Route path='/meal/:mealId' element={<MealDetail/>}/>
+        <Route path='/meals' element={<Meals/>}>
+          <Route path=':mealId' element={<MealDetail/>}/>
+        </Route>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>

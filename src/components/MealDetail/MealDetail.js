@@ -15,10 +15,11 @@ const MealDetail = () => {
     return (
         <div className='single-meal-card-detail-container'>
             <div className='single-meal-card-detail'>
-                <img src={meal.strMealThumb} alt="" />
+                <h2 className='single-meal-card-detail-header-text'>Single Meal Detail: {meal.idMeal}</h2>
+                <img src={meal.strMealThumb} alt={meal.strMeal?.toLowerCase()} />
                 <p><small>Food origin: {meal.strArea}</small></p>
                 <h3>{meal.strMeal}</h3>
-                <p>{meal.strInstructions?.slice(0, 100)}</p>
+                <p>{meal.strInstructions}</p>
             </div>
         </div>
     );
