@@ -1,0 +1,8 @@
+.single-meal-card{
+    border: 2px solid salmon;
+    border-radius: 8px;
+    padding: 10px;
+}
+.single-meal-img{
+    width: 100%;
+}
