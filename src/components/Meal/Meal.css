@@ -5,4 +5,19 @@
 }
 .single-meal-img{
     width: 100%;
+    border-radius: 8px;
+    box-shadow: 3px 8px 30px -3px #787574;
+}
+button{
+    background-color: coral;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: rgb(212, 92, 48);
+    transition: .5s;
 }
