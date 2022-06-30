@@ -1,0 +1,11 @@
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px;
+}
